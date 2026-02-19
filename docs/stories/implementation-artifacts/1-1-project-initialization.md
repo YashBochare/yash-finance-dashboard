@@ -1,6 +1,6 @@
 # Story 1.1: Project Initialization
 
-Status: review
+Status: done
 
 <!-- Note: Validation is optional. Run validate-create-story for quality check before dev-story. -->
 
@@ -83,6 +83,11 @@ Antigravity (Google Deepmind)
 
 -   Story created based on PRD/Architecture shard analysis.
 -   Implemented Story 1.1 successfully.
+-   **Code Review Fixes:**
+    -   Initialized Git repository.
+    -   Created root `package.json` with workspaces.
+    -   Fixed `packages/core` and `packages/shared` build configurations.
+    -   Removed boilerplate artifacts.
 
 ### File List
 
@@ -97,3 +102,5 @@ Antigravity (Google Deepmind)
 -   `packages/core/package.json`
 -   `packages/shared/tsconfig.json`
 -   `packages/shared/package.json`
+-   `package.json`
+-   `README.md`

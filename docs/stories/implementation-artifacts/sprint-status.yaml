@@ -41,7 +41,7 @@ story_location: docs/stories/implementation-artifacts
 
 development_status:
   epic-1: in-progress
-  1-1-project-initialization: review
+  1-1-project-initialization: done
   1-2-core-shell-layout: backlog
   1-3-persistence-global-state: backlog
   epic-1-retrospective: optional

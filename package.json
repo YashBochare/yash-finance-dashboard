@@ -1,0 +1,13 @@
+{
+    "name": "yash-finance-dashboard",
+    "private": true,
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "dev": "npm run dev -w apps/web",
+        "build": "npm run build --workspaces",
+        "lint": "npm run lint --workspaces"
+    }
+}
