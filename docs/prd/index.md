@@ -1,0 +1,23 @@
+# Yash-Finance Product Requirements Document (PRD)
+
+## Table of Contents
+
+- [Yash-Finance Product Requirements Document (PRD)](#table-of-contents)
+  - [1. Goals and Background Context](./1-goals-and-background-context.md)
+    - [1.1 Goals](./1-goals-and-background-context.md#11-goals)
+    - [1.2 Background Context](./1-goals-and-background-context.md#12-background-context)
+    - [1.3 Change Log](./1-goals-and-background-context.md#13-change-log)
+  - [2. Requirements](./2-requirements.md)
+    - [2.1 Functional Requirements (FR)](./2-requirements.md#21-functional-requirements-fr)
+    - [2.2 Non-Functional Requirements (NFR)](./2-requirements.md#22-non-functional-requirements-nfr)
+  - [3. User Interface Design Goals](./3-user-interface-design-goals.md)
+    - [3.1 Design System Tokens](./3-user-interface-design-goals.md#31-design-system-tokens)
+    - [3.2 Key Views](./3-user-interface-design-goals.md#32-key-views)
+  - [4. Technical Assumptions](./4-technical-assumptions.md)
+  - [5. Epic & Story List](./5-epic-story-list.md)
+    - [Epic 1: Foundation & Design Scaffolding](./5-epic-story-list.md#epic-1-foundation-design-scaffolding)
+    - [Epic 2: Wallet Management System](./5-epic-story-list.md#epic-2-wallet-management-system)
+    - [Epic 3: Transaction Engine & Integer Math](./5-epic-story-list.md#epic-3-transaction-engine-integer-math)
+    - [Epic 4: Analytics Dashboard & Real-time Stats](./5-epic-story-list.md#epic-4-analytics-dashboard-real-time-stats)
+    - [Epic 5: Search, Filtering & Responsive Polish](./5-epic-story-list.md#epic-5-search-filtering-responsive-polish)
+  - [6. Next Steps](./6-next-steps.md)

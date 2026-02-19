@@ -1,0 +1,67 @@
+# generated: 2026-02-20T00:15:00+05:30
+# project: yash-finance-dashboard
+# project_key: NOKEY
+# tracking_system: file-system
+# story_location: docs/stories/implementation-artifacts
+
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+#
+# Epic Status Transitions:
+#   - backlog → in-progress: Automatically when first story is created (via create-story)
+#   - in-progress → done: Manually when all stories reach 'done' status
+#
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created in stories folder
+#   - in-progress: Developer actively working on implementation
+#   - review: Ready for code review (via Dev's code-review workflow)
+#   - done: Story completed
+#
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+#
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when first story is created
+# - Stories can be worked in parallel if team capacity allows
+# - SM typically creates next story after previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+
+generated: 2026-02-20T00:15:00+05:30
+project: yash-finance-dashboard
+project_key: NOKEY
+tracking_system: file-system
+story_location: docs/stories/implementation-artifacts
+
+development_status:
+  epic-1: in-progress
+  1-1-project-initialization: review
+  1-2-core-shell-layout: backlog
+  1-3-persistence-global-state: backlog
+  epic-1-retrospective: optional
+
+  epic-2: backlog
+  2-1-wallet-crud-logic: backlog
+  2-2-wallet-card-display: backlog
+  epic-2-retrospective: optional
+
+  epic-3: backlog
+  3-1-integer-math-utility: backlog
+  3-2-transaction-modal-crud: backlog
+  epic-3-retrospective: optional
+
+  epic-4: backlog
+  4-1-dashboard-calculation-engine: backlog
+  4-2-dynamic-trend-category-charts: backlog
+  epic-4-retrospective: optional
+
+  epic-5: backlog
+  5-1-real-time-search-filter: backlog
+  5-2-mobile-responsive-optimization: backlog
+  epic-5-retrospective: optional
