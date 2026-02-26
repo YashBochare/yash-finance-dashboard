@@ -1,23 +1,19 @@
-import { useState } from 'react'
+import { Routes, Route } from 'react-router-dom'
+import MainLayout from './components/MainLayout'
+import Dashboard from './pages/Dashboard'
+import Transactions from './pages/Transactions'
+import Wallets from './pages/Wallets'
+import Analytics from './pages/Analytics'
 
-function App() {
+export default function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background text-white">
-      <div className="bg-surface p-8 rounded-xl border border-border shadow-lg max-w-md w-full">
-        <h1 className="text-3xl font-header font-bold text-indigo mb-4">
-          Yash Finance
-        </h1>
-        <p className="text-gray-400 mb-6 font-sans">
-          Project initialized successfully with Vite + React + TypeScript + Tailwind.
-        </p>
-        <div className="grid grid-cols-3 gap-4">
-          <div className="h-12 bg-indigo rounded-lg flex items-center justify-center">Indigo</div>
-          <div className="h-12 bg-green rounded-lg flex items-center justify-center">Green</div>
-          <div className="h-12 bg-red rounded-lg flex items-center justify-center">Red</div>
-        </div>
-      </div>
-    </div>
+    <Routes>
+      <Route path="/" element={<MainLayout />}>
+        <Route index element={<Dashboard />} />
+        <Route path="transactions" element={<Transactions />} />
+        <Route path="wallets" element={<Wallets />} />
+        <Route path="analytics" element={<Analytics />} />
+      </Route>
+    </Routes>
   )
 }
-
-export default App

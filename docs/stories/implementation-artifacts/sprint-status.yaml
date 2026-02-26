@@ -40,28 +40,28 @@ tracking_system: file-system
 story_location: docs/stories/implementation-artifacts
 
 development_status:
-  epic-1: in-progress
+  epic-1: done
   1-1-project-initialization: done
-  1-2-core-shell-layout: backlog
-  1-3-persistence-global-state: backlog
+  1-2-core-shell-layout: done
+  1-3-persistence-global-state: done
   epic-1-retrospective: optional
 
-  epic-2: backlog
-  2-1-wallet-crud-logic: backlog
-  2-2-wallet-card-display: backlog
+  epic-2: done
+  2-1-wallet-crud-logic: done
+  2-2-wallet-card-display: done
   epic-2-retrospective: optional
 
-  epic-3: backlog
-  3-1-integer-math-utility: backlog
-  3-2-transaction-modal-crud: backlog
+  epic-3: done
+  3-1-integer-math-utility: done
+  3-2-transaction-modal-crud: done
   epic-3-retrospective: optional
 
-  epic-4: backlog
-  4-1-dashboard-calculation-engine: backlog
-  4-2-dynamic-trend-category-charts: backlog
+  epic-4: done
+  4-1-dashboard-calculation-engine: done
+  4-2-dynamic-trend-category-charts: done
   epic-4-retrospective: optional
 
-  epic-5: backlog
-  5-1-real-time-search-filter: backlog
-  5-2-mobile-responsive-optimization: backlog
+  epic-5: done
+  5-1-real-time-search-filter: done
+  5-2-mobile-responsive-optimization: done
   epic-5-retrospective: optional

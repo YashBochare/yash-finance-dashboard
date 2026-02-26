@@ -1,6 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0F1117;
+  --color-surface: #161A23;
+  --color-border: #232634;
+  --color-indigo: #6366F1;
+  --color-green: #10B981;
+  --color-red: #EF4444;
+
+  --font-sans: 'Inter', sans-serif;
+  --font-header: 'Space Grotesk', sans-serif;
+
+  --radius-xl: 12px;
+}
 
 :root {
   background-color: #0F1117;
