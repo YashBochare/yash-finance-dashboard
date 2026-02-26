@@ -4,7 +4,7 @@ import { useStore } from '../store/useStore'
 import type { Wallet } from '../types'
 
 const COLOR_PRESETS = [
-  '#6366F1', '#10B981', '#EF4444', '#F59E0B', '#8B5CF6', '#EC4899',
+  '#7C6EF6', '#34D399', '#F87171', '#FBBF24', '#A78BFA', '#F472B6',
 ]
 
 interface WalletFormModalProps {

@@ -44,15 +44,15 @@ export default function TrendChart() {
       <h4 className="text-white font-header font-semibold mb-4">Income vs Expense Trend</h4>
       <ResponsiveContainer width="100%" height={250}>
         <LineChart data={data}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#232634" />
-          <XAxis dataKey="month" tick={{ fill: '#9CA3AF', fontSize: 12 }} stroke="#232634" />
-          <YAxis tick={{ fill: '#9CA3AF', fontSize: 12 }} stroke="#232634" />
+          <CartesianGrid strokeDasharray="3 3" stroke="#1E1E24" />
+          <XAxis dataKey="month" tick={{ fill: '#71717A', fontSize: 12 }} stroke="#1E1E24" />
+          <YAxis tick={{ fill: '#71717A', fontSize: 12 }} stroke="#1E1E24" />
           <Tooltip
-            contentStyle={{ backgroundColor: '#161A23', border: '1px solid #232634', borderRadius: 12 }}
+            contentStyle={{ backgroundColor: '#131316', border: '1px solid #1E1E24', borderRadius: 12 }}
             labelStyle={{ color: '#fff' }}
           />
-          <Line type="monotone" dataKey="income" stroke="#10B981" strokeWidth={2} dot={false} />
-          <Line type="monotone" dataKey="expense" stroke="#EF4444" strokeWidth={2} dot={false} />
+          <Line type="monotone" dataKey="income" stroke="#34D399" strokeWidth={2} dot={false} />
+          <Line type="monotone" dataKey="expense" stroke="#F87171" strokeWidth={2} dot={false} />
         </LineChart>
       </ResponsiveContainer>
     </div>

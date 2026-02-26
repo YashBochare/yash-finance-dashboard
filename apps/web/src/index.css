@@ -1,12 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #0F1117;
-  --color-surface: #161A23;
-  --color-border: #232634;
-  --color-indigo: #6366F1;
-  --color-green: #10B981;
-  --color-red: #EF4444;
+  --color-background: #09090B;
+  --color-surface: #131316;
+  --color-border: #1E1E24;
+  --color-indigo: #7C6EF6;
+  --color-green: #34D399;
+  --color-red: #F87171;
+  --color-muted: #52525B;
 
   --font-sans: 'Inter', sans-serif;
   --font-header: 'Space Grotesk', sans-serif;
@@ -15,7 +16,7 @@
 }
 
 :root {
-  background-color: #0F1117;
+  background-color: #09090B;
   color: white;
   font-family: 'Inter', sans-serif;
 }

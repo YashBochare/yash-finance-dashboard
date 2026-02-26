@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend } from 'recharts'
 import { useStore } from '../store/useStore'
 
-const COLORS = ['#6366F1', '#10B981', '#EF4444', '#F59E0B', '#8B5CF6', '#EC4899', '#14B8A6', '#F97316']
+const COLORS = ['#7C6EF6', '#34D399', '#F87171', '#FBBF24', '#A78BFA', '#F472B6', '#2DD4BF', '#FB923C']
 
 export default function CategoryChart() {
   const transactions = useStore((s) => s.transactions)
@@ -49,11 +49,11 @@ export default function CategoryChart() {
             ))}
           </Pie>
           <Tooltip
-            contentStyle={{ backgroundColor: '#161A23', border: '1px solid #232634', borderRadius: 12 }}
+            contentStyle={{ backgroundColor: '#131316', border: '1px solid #1E1E24', borderRadius: 12 }}
             labelStyle={{ color: '#fff' }}
           />
           <Legend
-            formatter={(value) => <span style={{ color: '#9CA3AF', fontSize: 12 }}>{value}</span>}
+            formatter={(value) => <span style={{ color: '#71717A', fontSize: 12 }}>{value}</span>}
           />
         </PieChart>
       </ResponsiveContainer>

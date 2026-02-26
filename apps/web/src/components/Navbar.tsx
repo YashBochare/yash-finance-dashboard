@@ -12,16 +12,17 @@ const pageTitles: Record<string, string> = {
 
 interface NavbarProps {
   onMenuClick: () => void
+  sidebarCollapsed: boolean
 }
 
-export default function Navbar({ onMenuClick }: NavbarProps) {
+export default function Navbar({ onMenuClick, sidebarCollapsed }: NavbarProps) {
   const { pathname } = useLocation()
   const pageTitle = pageTitles[pathname] ?? 'Dashboard'
   const [showTransactionModal, setShowTransactionModal] = useState(false)
 
   return (
     <>
-      <header className="fixed top-0 left-0 lg:left-60 right-0 h-16 bg-surface border-b border-border flex items-center justify-between px-6 z-10">
+      <header className={`fixed top-0 left-0 right-0 h-16 bg-surface border-b border-border flex items-center justify-between px-6 z-10 transition-all duration-200 ${sidebarCollapsed ? 'lg:left-16' : 'lg:left-60'}`}>
         <div className="flex items-center gap-3">
           <button type="button" onClick={onMenuClick} className="text-gray-400 hover:text-white lg:hidden">
             <Menu size={20} />
